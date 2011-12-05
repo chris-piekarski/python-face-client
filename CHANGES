@@ -1,4 +1,7 @@
-1.2.1 - 7.11.2100:
+1.2.3 - 12.4.2011
+ - PEP8 Changes
+
+1.2.1 - 7.11.2011:
  - Rework of entire existing face.com api
  - rename all methods
  - rework FaceClient class
