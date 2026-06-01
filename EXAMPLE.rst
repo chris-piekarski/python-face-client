@@ -104,5 +104,5 @@ http://farm1.static.flickr.com/41/104498903_bad315cee0.jpg
 
 For more information about the face.com API and how to use it with Facebook and Twitter, see the archived `official documentation`_.
 
-.. _face.com account page: https://web.archive.org/web/*/http://developers.face.com/account/
-.. _official documentation: https://web.archive.org/web/*/http://developers.face.com/docs/recognition-howto/
+.. _face.com account page: https://web.archive.org/web/20100506021759/http://developers.face.com/account/
+.. _official documentation: https://web.archive.org/web/20100507113011/http://developers.face.com/docs/recognition-howto/

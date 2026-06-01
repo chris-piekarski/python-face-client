@@ -80,9 +80,9 @@ Historical references
 * `CHANGES <CHANGES>`_ contains release notes through version 1.2.3.
 * Archived face.com references:
 
-  * `API overview (Wayback) <https://web.archive.org/web/*/http://developers.face.com/docs/api/>`_
-  * `Account page (Wayback) <https://web.archive.org/web/*/http://developers.face.com/account/>`_
-  * `Recognition how-to (Wayback) <https://web.archive.org/web/*/http://developers.face.com/docs/recognition-howto/>`_
+  * `API overview (Wayback) <https://web.archive.org/web/20100507113010/http://developers.face.com/docs/api/>`_
+  * `Account page (Wayback) <https://web.archive.org/web/20100506021759/http://developers.face.com/account/>`_
+  * `Recognition how-to (Wayback) <https://web.archive.org/web/20100507113011/http://developers.face.com/docs/recognition-howto/>`_
 
 License
 -------
