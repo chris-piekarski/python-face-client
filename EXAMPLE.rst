@@ -3,6 +3,8 @@ EXAMPLE
 
 Here is a short example demonstrating how you can use this client.
 
+This example is preserved as historical documentation. The original face.com site is gone, so the account and API references now point to the Wayback Machine.
+
 Lets say that we want to create our own private namespace and train it to recognize Guido Van Rossum.
 
 Here are the images which we will use for training our namespace index:
@@ -15,9 +17,9 @@ And here is the image which hopefully, after training our index will be recogniz
 
 http://farm1.static.flickr.com/41/104498903_bad315cee0.jpg
 
-#. First we create our private namespace named **testns** (this can be done on the `face.com page`_)
+#. First we create our private namespace named **testns** (this could originally be done on the `face.com account page`_)
 
-#. Now we import the module and instantiate the class with our face.com **api_key** and **api_secret** (you can get them by registering your application on `face.com page`_)::
+#. Now we import the module and instantiate the class with our face.com **api_key** and **api_secret** (these were originally issued when registering an application on the `face.com account page`_)::
 
     >> import face_client
     >> client = face_client.FaceClient('API_KEY', 'API_SECRET')
@@ -45,7 +47,7 @@ http://farm1.static.flickr.com/41/104498903_bad315cee0.jpg
 
    In this example, I will use faces_detect::
 
-    >> response = client.facesDetect('http://savasplace.com/wp-content/uploads/2009/04/guido-van-rossum.jpg,http://farm1.static.flickr.com/43/104506247_c748f20b83.jpg,http://farm1.static.flickr.com/67/200126290_2798330e61.jpg')
+    >> response = client.faces_detect(urls='http://savasplace.com/wp-content/uploads/2009/04/guido-van-rossum.jpg,http://farm1.static.flickr.com/43/104506247_c748f20b83.jpg,http://farm1.static.flickr.com/67/200126290_2798330e61.jpg')
     >> tids = [photo['tags'][0]['tid'] for photo in response['photos']]
 
     >> tids
@@ -100,7 +102,7 @@ http://farm1.static.flickr.com/41/104498903_bad315cee0.jpg
 
    As you can see by looking at the uids key, Guido was now recognized with a 20% confidence!
 
-For more information about the face.com API and how to use it with Facebook and Twitter, visit the `official documentation`_.
+For more information about the face.com API and how to use it with Facebook and Twitter, see the archived `official documentation`_.
 
-.. _face.com page: http://developers.face.com/account/
-.. _official documentation: http://developers.face.com/docs/recognition-howto/
+.. _face.com account page: https://web.archive.org/web/*/http://developers.face.com/account/
+.. _official documentation: https://web.archive.org/web/*/http://developers.face.com/docs/recognition-howto/
