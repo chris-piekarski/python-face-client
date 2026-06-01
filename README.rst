@@ -1,6 +1,10 @@
 face.com Python API client library
 ==================================
 
+.. image:: https://img.shields.io/badge/status-read--only%20archive-lightgrey
+   :alt: Read-only archive
+   :target: https://github.com/chris-piekarski/python-face-client
+
 face.com_ REST API Python client library.
 
 For a demonstration how to use this library, see EXAMPLE.RST.
