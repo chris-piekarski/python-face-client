@@ -1,32 +1,37 @@
 face.com Python API client
 ==========================
 
-.. image:: https://img.shields.io/badge/status-public%20archive-lightgrey
+.. image:: https://img.shields.io/badge/status-public%20archive-lightgrey.svg
    :alt: Public archive
    :target: https://github.com/chris-piekarski/python-face-client
 
-.. image:: https://img.shields.io/badge/python-2.x-blue
+.. image:: https://img.shields.io/badge/python-2.x-blue.svg
    :alt: Python 2.x
    :target: https://github.com/chris-piekarski/python-face-client
 
-.. image:: https://img.shields.io/badge/release-1.2.3-informational
+.. image:: https://img.shields.io/badge/release-1.2.3-informational.svg
    :alt: Release 1.2.3
-   :target: CHANGES
+   :target: https://github.com/chris-piekarski/python-face-client/blob/master/CHANGES
 
-.. image:: https://img.shields.io/badge/license-BSD%203--Clause-blue
+.. image:: https://img.shields.io/badge/license-BSD%203--Clause-blue.svg
    :alt: BSD 3-Clause license
-   :target: LICENSE
+   :target: https://github.com/chris-piekarski/python-face-client/blob/master/LICENSE
 
-.. image:: https://img.shields.io/badge/service-face.com-retired-red
+.. image:: https://img.shields.io/badge/service-face.com-retired-red.svg
    :alt: face.com retired
-   :target: https://web.archive.org/web/*/http://developers.face.com/docs/api/
+   :target: https://github.com/chris-piekarski/python-face-client/blob/master/README.rst#historical-references
 
 .. code-block:: text
 
-    +--------------------------------------------------+
-    | python-face-client                               |
-    | Python client library for the face.com API       |
-    +--------------------------------------------------+
+              .-"""""""-.
+            .'  _   _    `.
+           /   (o) (o)     \
+          |       ^         |====.      POST /faces/detect
+          |      '-'        | [] ||==>  POST /faces/recognize
+          |   .-.___.-.     |====''     POST /faces/train
+           \  \       /    /            POST /tags/save
+            `. `-----'  .'              {image} -> {tags}
+              `-.___.-'                 /api
 
 **Archived project.** This repository is now a read-only snapshot of a Python client for the face.com API. It is preserved for historical reference and old integrations, not for active development.
 
